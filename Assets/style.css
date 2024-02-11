@@ -1,0 +1,120 @@
+.header {
+    background-image: url("./header-photo.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* date and time info */
+#date-info{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#date{
+    padding-top: 50px;
+    color: rgb(9, 102, 109);
+    font-size: 4.5vw;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px  rgba(0,0,0,0.1),
+    0px 18px 23px  rgba(0,0,0,0.1);
+    letter-spacing: 0.1em;
+}
+
+#current-time{
+    color: rgb(15, 208, 221);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px  rgba(0,0,0,0.1),
+    0px 18px 23px  rgba(0,0,0,0.1);
+}
+
+#city {
+    margin: auto;
+    text-align: center;
+}
+
+/* search icon */
+.bi {
+    margin-right: 5px;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: rgb(8, 179, 242);
+}
+
+#search-bar{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#error-message {
+    color: rgb(233, 74, 74);
+    font-weight: 400;
+    text-shadow: 0px 4px 3px rgba(250, 243, 243, 0.4),
+    0px 8px 13px  rgba(250, 243, 243, 0.1),
+    0px 18px 23px   rgba(250, 243, 243, 0.1);
+}
+
+/* Your Favorite Cities */
+.your-favorite-cities{
+    background-color: #45c5e2;
+    margin-top: 20px;
+    padding: 12px 0 12px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.clear {
+    background-color: #97e4f5;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 8px;
+    float: right;
+    margin-right: 15px;}
+
+.clear:hover {
+    color:rgb(201, 238, 241);
+    background-color: #93dded;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+li:hover{
+    color: #28afce;
+    font-weight: 600;
+}
+
+/* UV Index  */
+#uv-index {
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+
+@keyframes colorChange {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
